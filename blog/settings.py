@@ -15,7 +15,6 @@ from pathlib import Path
 from tkinter.messagebox import YES
 import django_heroku
 import dj_database_url
-from decouple import config
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -30,7 +29,7 @@ SECRET_KEY = 'django-insecure-sny8pl&42hp5=t%2jh01mp*@!4qti318xevk_5)dxka%q$@^6g
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = []
 
 
 
